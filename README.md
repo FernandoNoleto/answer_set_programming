@@ -2,11 +2,11 @@
 Exemplos de códigos feitos usando Answer Set Programming.
 Para executar, primeiramente você precisa instalar o "clingo".
 ```bash
-$sudo apt-get install gringo
+$ sudo apt-get install gringo
 ```
 Depois use o comando:
 ```bash
-$clingo nomedoarquivo.lp
+$ clingo nomedoarquivo.lp
 ```
 
 Para executar:
