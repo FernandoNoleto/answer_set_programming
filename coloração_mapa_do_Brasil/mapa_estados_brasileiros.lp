@@ -1,3 +1,4 @@
+%MAPA DOS ESTADOS BRASILEIROS
 node(1..27).
 edge(1,2).   edge(1,3).
 edge(2,1).   edge(2,3).   edge(2,4).   edge(2,6).   edge(2,7).
@@ -26,10 +27,3 @@ edge(24,21). edge(24,22). edge(24,23).
 edge(25,20). edge(25,21). edge(25,26).
 edge(26,25). edge(26,27).
 edge(27,26).
-
-
-col(r). col(g). col(b). col(y).
-{ color(X,C) : col(C) } == 1 :- node(X).
-:- edge(X,Y), color(X,C), color(Y,C), color(Z,C).
-
-#show color/2.

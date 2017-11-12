@@ -1,6 +1,8 @@
 #!/bin/bash
 
-clingo graph_coloring_mapa_brasil.lp >> resultado.txt
+mapa_estados_brasileiros.lp >> graph_coloring.lp
+
+clingo graph_coloring.lp >> resultado.txt
 
 gcc -o coloracao_mapa_brasil coloracao_mapa_brasil.c
 
